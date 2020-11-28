@@ -19,7 +19,8 @@ public class Cliente
      Cliente()     {	 
        entrada = new Scanner(System.in);         
        try         {             
-                      String host = "189.228.173.45";
+//                      String host = "189.228.173.45";
+                      String host = "127.0.0.1";
                       Inet4Address in = (Inet4Address) Inet4Address.getByName(host);
                       Socket skCliente = new Socket (in, 5000);           			
                       System.out.println("Introduce tu Nombre:");			 
